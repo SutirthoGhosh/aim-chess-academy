@@ -1,0 +1,13 @@
+// Version: 1.0.0
+type ContactEntry__649532464 =
+  {id : Nat; message : Text; name : Text; phone : Text; timestamp : Int};
+type Nat__490723111 = Nat__920180692;
+type Nat__920180692 = Nat;
+actor {
+  stable contacts :
+    {
+      var blockIndex : Nat__490723111;
+      var blocks : [var [var ?ContactEntry__649532464]];
+      var elementIndex : Nat__490723111
+    }
+};

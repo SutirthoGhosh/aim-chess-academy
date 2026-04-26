@@ -1,0 +1,29 @@
+{
+  "overview": "Premium luxury chess academy website for Aim Chess Academy in Barasat, Kolkata — built with Next.js and Tailwind CSS for Vercel deployment. Features a stunning dark-mode-first design with gold accents, glassmorphism cards, animated chess pieces, and all the sections needed to attract new students.",
+  "features": [
+    "Next.js 15 App Router with TypeScript",
+    "Dark/light mode toggle with localStorage persistence",
+    "Chess king loading screen animation",
+    "Animated hero with floating chess pieces",
+    "Glassmorphism course and feature cards",
+    "Animated stats counters",
+    "Testimonials, FAQ accordion, contact form",
+    "WhatsApp and Call floating action buttons",
+    "Google Maps directions integration",
+    "SEO optimized with structured data",
+    "Vercel deployment configuration",
+    "GitHub Actions CI/CD workflow"
+  ],
+  "category": "showcase",
+  "tags": [
+    "chess",
+    "education",
+    "nextjs",
+    "vercel",
+    "luxury",
+    "dark-mode",
+    "tailwind",
+    "glassmorphism"
+  ],
+  "last_updated": "2026-04-26T07:33:46.303Z"
+}

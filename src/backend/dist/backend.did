@@ -1,0 +1,12 @@
+type ContactEntry = 
+ record {
+   id: nat;
+   message: text;
+   name: text;
+   phone: text;
+   timestamp: int;
+ };
+service : {
+  getContacts: () -> (vec ContactEntry) query;
+  submitContact: (name: text, phone: text, message: text) -> (bool);
+}
